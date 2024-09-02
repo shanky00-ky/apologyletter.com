@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fef9f9; /* Light pink background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+#hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header.hero {
+    background: linear-gradient(to bottom, rgba(255, 228, 225, 0.8), rgba(252, 228, 236, 0.8)); /* Semi-transparent pink gradient */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 400px; /* Width of a typical phone */
+    height: auto;
+    min-height: 500px; /* Height to simulate a phone screen */
+    overflow: hidden;
+}
+
+/* Hero Section Text */
+header.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Dancing Script', cursive; /* Cursive font for a sweet touch */
+    color: #f8bbd0; /* Slightly darker pink for contrast */
+}
+
+header.hero p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Ensures text is readable */
+}
+
+header.hero p span {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Video Container */
+#videoPlayerContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 360px; /* Width of a typical phone */
+    border: 5px solid #e91e63;
+    border-radius: 15px;
+}
+
+/* Gallery Section */
+#gallery {
+    background: #fce4ec;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: calc(33% - 10px); /* Adjust for gaps */
+    border: 5px solid #e91e63;
+    border-radius: 15px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+/* Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    border: 5px solid #f8bbd0;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+/* Section Styles */
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sweet Riza Baby Section */
+#hero-container header.hero {
+    background: linear-gradient(to bottom, rgba(255, 228, 225, 0.9), rgba(252, 228, 236, 0.9)); /* Slightly more opaque */
+    color: #333;
+}
+
+/* Apology Letter Section */
+#apology-letter {
+    background: linear-gradient(to right, #f8bbd0, #fce4ec); /* Soft pink gradient */
+    color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    margin: 20px auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+#apology-letter h2 {
+    font-size: 2.2em;
+    color: #e91e63;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive; /* Cursive font for a sweet touch */
+}
+
+#apology-letter p {
+    font-size: 1.4em;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* Background Music */
+#background-music audio {
+    width: 100%;
+    max-width: 360px; /* Width of a typical phone */
+    border: 2px solid #e91e63;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Love Calculator */
+#love-calculator input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #e91e63;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#calculate-love {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#calculate-love:hover {
+    background-color: #d81b60;
+}
+
+#love-result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #e91e63;
+}
+
+/* Footer */
+footer {
+    background-color: #fce4ec;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #e91e63;
+}
